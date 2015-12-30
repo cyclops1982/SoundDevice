@@ -69,8 +69,7 @@ def main():
 	while (True):
 		playSound(args.rootfolder);
 		print "sleeping", interval_rand
-#		time.sleep(interval_rand)
-		time.sleep(5)
+		time.sleep(interval_rand)
 		
 		interval_rand = random.randint(interval_min, interval_max);	
 
